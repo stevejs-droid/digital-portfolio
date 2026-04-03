@@ -278,3 +278,36 @@ section h2 {
         transform: scale(1);
     }
 }
+/* Project Buttons */
+.project-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.demo-btn {
+    background: #28a745;
+}
+
+.demo-btn:hover {
+    background: #1e7e34;
+}
+
+.code-btn {
+    background: #333;
+}
+
+.code-btn:hover {
+    background: #000;
+}
