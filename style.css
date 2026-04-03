@@ -171,7 +171,50 @@ section h2 {
     transform: translateY(-5px);
 }
 
-/* Contact Social Links */
+.project-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.demo-btn {
+    background: #28a745;
+}
+
+.demo-btn:hover {
+    background: #1e7e34;
+}
+
+.code-btn {
+    background: #333;
+}
+
+.code-btn:hover {
+    background: #000;
+}
+
+/* Contact Section */
+.contact-box {
+    margin-top: 10px;
+    line-height: 1.9;
+}
+
+.contact-box p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
 .social-links {
     margin-top: 15px;
     display: flex;
@@ -277,37 +320,4 @@ section h2 {
         opacity: 1;
         transform: scale(1);
     }
-}
-/* Project Buttons */
-.project-links {
-    margin-top: 15px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.btn {
-    padding: 8px 14px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.demo-btn {
-    background: #28a745;
-}
-
-.demo-btn:hover {
-    background: #1e7e34;
-}
-
-.code-btn {
-    background: #333;
-}
-
-.code-btn:hover {
-    background: #000;
 }
