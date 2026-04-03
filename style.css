@@ -321,3 +321,17 @@ section h2 {
         transform: scale(1);
     }
 }
+.visitor-count {
+    text-align: center;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.visitor-count h3 {
+    margin-bottom: 10px;
+    color: #0077cc;
+}
+
+.visitor-count img {
+    border-radius: 6px;
+}
