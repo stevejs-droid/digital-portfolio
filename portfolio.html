@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="portfolio">
+    <header>
+        <h1>Steve J. Stephen</h1>
+        <p>B.Tech CSE Student</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a Computer Science student passionate about programming and technology.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Web Development</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Mini Warehouse Business Plan</li>
+            <li>Student Management System</li>
+            <li>Digital Portfolio</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p id="user-email"></p>
+        <p id="user-phone"></p>
+    </section>
+</div>
+
+<script>
+    document.getElementById("user-email").innerText =
+        "Email: " + localStorage.getItem("email");
+
+    document.getElementById("user-phone").innerText =
+        "Phone: " + localStorage.getItem("phone");
+</script>
+
+</body>
+</html>
