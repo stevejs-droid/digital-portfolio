@@ -321,6 +321,7 @@ section h2 {
         transform: scale(1);
     }
 }
+/* Visitor Counter */
 .visitor-count {
     text-align: center;
     margin: 30px auto;
