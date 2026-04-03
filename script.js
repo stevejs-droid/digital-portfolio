@@ -16,22 +16,7 @@ function login() {
         return;
     }
 
-    localStorage.setItem("email", email);
-    localStorage.setItem("phone", phone);
-
     window.location.href = "portfolio.html";
-}
-
-if (window.location.pathname.includes("portfolio.html")) {
-    let savedEmail = localStorage.getItem("email");
-    let savedPhone = localStorage.getItem("phone");
-
-    if (!savedEmail || !savedPhone) {
-        window.location.href = "index.html";
-    } else {
-        document.getElementById("user-email").innerText = "Email: " + savedEmail;
-        document.getElementById("user-phone").innerText = "Phone: " + savedPhone;
-    }
 }
 
 function toggleDarkMode() {
@@ -39,7 +24,5 @@ function toggleDarkMode() {
 }
 
 function logout() {
-    localStorage.removeItem("email");
-    localStorage.removeItem("phone");
     window.location.href = "index.html";
 }
