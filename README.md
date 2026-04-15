@@ -27,17 +27,17 @@ This project showcases my profile, skills, projects, and contact details in a cl
 - JavaScript  
 
 ---
-## 📂 Project Structure
+## Project Structure
+
+```text
 digital-portfolio/
-│
 ├── index.html
 ├── portfolio.html
 ├── style.css
 ├── script.js
 ├── profile.jpg
 └── README.md
-
----
+'''
 
 ## 🌍 Live Demo
 
