@@ -1,4 +1,3 @@
-# Digital-portfolio
 # 🌐 Digital Portfolio Website
 
 A responsive digital portfolio website built using **HTML, CSS, and JavaScript**.  
@@ -8,15 +7,15 @@ This project showcases my profile, skills, projects, and contact details in a cl
 
 ## 🚀 Features
 
-- 🔐 Login form with email & phone validation
-- 👤 Personal profile section with photo
-- 🧠 Skills showcase
-- 📂 Projects section with:
-  - 🚀 Live Demo links
-  - 💻 Source Code links
-- 📞 Contact section (Email, Phone, LinkedIn, GitHub)
-- 🌙 Dark Mode toggle
-- 🎨 Smooth animations and responsive design
+- 🔐 Login form with email & phone validation  
+- 👤 Personal profile section with photo  
+- 🧠 Skills showcase  
+- 📂 Projects section with:  
+  - 🚀 Live Demo links  
+  - 💻 Source Code links  
+- 📞 Contact section (Email, Phone, LinkedIn, GitHub)  
+- 🌙 Dark Mode toggle  
+- 🎨 Smooth animations and responsive design  
 
 ---
 
@@ -27,7 +26,8 @@ This project showcases my profile, skills, projects, and contact details in a cl
 - JavaScript  
 
 ---
-## Project Structure
+
+## 📂 Project Structure
 
 ```text
 digital-portfolio/
@@ -37,8 +37,7 @@ digital-portfolio/
 ├── script.js
 ├── profile.jpg
 └── README.md
-'''
-
+```
 ## 🌍 Live Demo
 
 👉 https://stevejs-droid.github.io/digital-portfolio/index.html
